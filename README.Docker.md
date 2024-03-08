@@ -20,3 +20,11 @@ docs for more detail on building and pushing.
 
 ### References
 * [Docker's Node.js guide](https://docs.docker.com/language/nodejs/)
+
+For this app 
+Build 
+docker build -t my-nextjs-app .   // the app can be anything
+
+run 
+
+docker run -p 3100:3000 my-nextjs-app
